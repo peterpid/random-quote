@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
@@ -10,21 +10,22 @@
     </script>
 	<title>Random Quote</title>
 </head>
-<body>
+<body class="bg-light">
 	<main>
-		<header>
-			<h1>Random Quote</h1>
-		</header>
-		<div class="box">
-			<h2 class="quote"></h2>
-			<h3 class="author"></h3>
-		</div>
-		<div>
-			<button class="trigger"> Random quote </button>
-			<a href="#" target="_blank" class="tweet"><i class="fa fa-lg fa-twitter"></i> Tweet</a>
-		</div>
+		<section class="container text-center">
+			<header>
+				<h1 class="my-3">Random Quote</h1>
+			</header>
+			<div class="box my-5">
+				<h2 class="quote my-3"></h2>
+				<h4 class="author my-3"></h4>
+			</div>
+			<div class="my-3 w-25 mx-auto ">
+				<button class="trigger btn btn-primary my-1 d-block w-100">Random quote</button>
+				<a href="#" target="_blank" class="tweet btn btn-primary my-1 d-block"><i class="fa fa-lg fa-twitter"></i> Tweet</a>
+			</div>
+		</section>
 	</main>
-
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
